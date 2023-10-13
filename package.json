@@ -1,0 +1,21 @@
+{
+  "name": "Chimera-DSA-JavaScript",
+  "version": "1.0.0",
+  "description": "DSA",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx jest",
+    "test:esm": "NODE_OPTIONS=--experimental-vm-modules jest --coverage",
+    "docs": "jsdoc ./src/** -d docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.2"
+  }
+}
